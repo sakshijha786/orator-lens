@@ -2,6 +2,9 @@
 
 > **Sub-millisecond forensic speech alignment, prosody flaw grounding, and causal rhetorical coaching.**
 
+- 🌐 **Live Web Application**: [https://sakshijha786.github.io/orator-lens/](https://sakshijha786.github.io/orator-lens/)
+- 📦 **GitHub Repository**: [https://github.com/sakshijha786/orator-lens](https://github.com/sakshijha786/orator-lens)
+
 OratorLens is an end-to-end, contrastive forensic speech analytics platform designed for competitive speech coaching and public speaking mastery. Rather than providing generic acoustic metrics or vague feedback, OratorLens aligns a speaker's audio directly against gold-standard master orator deliveries using Multiscale Dynamic Time Warping (FastDTW), isolates exact temporal flaws $[t_{start}, t_{end}]$ using adaptive statistical thresholding, and attributes causal rhetorical explanations with prescriptive rehearsal drills.
 
 ---
