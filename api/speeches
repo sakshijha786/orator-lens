@@ -1,16 +1,34 @@
 {
-  "speeches": {
-    "jobs_commencement": {
+  "speeches": [
+    {
+      "id": "jobs_commencement",
       "title": "Steve Jobs Stanford Commencement (2005)",
-      "rhetoric_type": "Inspiring / Visionary Declamation",
       "speaker": "Steve Jobs",
+      "rhetoric_type": "Inspiring / Visionary Declamation",
       "transcript": "Remembering that I'll be dead soon is the most important tool I've ever encountered to help me make the big choices in life. Stay hungry. Stay foolish.",
-      "audio_files": {
-        "gold_baseline": "gold_baseline.wav",
-        "flawed_lvl1_subtle": "flawed_lvl1_subtle.wav",
-        "flawed_lvl2_monotone": "flawed_lvl2_monotone.wav",
-        "flawed_lvl3_botched": "flawed_lvl3_botched.wav"
-      },
+      "audio_files": [
+        {
+          "tier_key": "gold_baseline",
+          "filename": "gold_baseline.wav",
+          "url": "./api/audio/jobs_commencement/gold_baseline.wav"
+        },
+        {
+          "tier_key": "flawed_lvl1_subtle",
+          "filename": "flawed_lvl1_subtle.wav",
+          "url": "./api/audio/jobs_commencement/flawed_lvl1_subtle.wav"
+        },
+        {
+          "tier_key": "flawed_lvl2_monotone",
+          "filename": "flawed_lvl2_monotone.wav",
+          "url": "./api/audio/jobs_commencement/flawed_lvl2_monotone.wav"
+        },
+        {
+          "tier_key": "flawed_lvl3_botched",
+          "filename": "flawed_lvl3_botched.wav",
+          "url": "./api/audio/jobs_commencement/flawed_lvl3_botched.wav"
+        }
+      ],
+      "gold_audio_url": "./api/audio/jobs_commencement/gold_baseline.wav",
       "ground_truth_flaws": {
         "lvl1": [],
         "lvl2": [
@@ -189,17 +207,35 @@
         ]
       }
     },
-    "thunberg_summit": {
+    {
+      "id": "thunberg_summit",
       "title": "Greta Thunberg UN Climate Summit (2019)",
-      "rhetoric_type": "Persuasive / Urgent Forensics",
       "speaker": "Greta Thunberg",
+      "rhetoric_type": "Persuasive / Urgent Forensics",
       "transcript": "This is all wrong. I shouldn't be up here. You have stolen my dreams and my childhood with your empty words. How dare you!",
-      "audio_files": {
-        "gold_baseline": "gold_baseline.wav",
-        "flawed_lvl1_subtle": "flawed_lvl1_subtle.wav",
-        "flawed_lvl2_rushed": "flawed_lvl2_rushed.wav",
-        "flawed_lvl3_botched": "flawed_lvl3_botched.wav"
-      },
+      "audio_files": [
+        {
+          "tier_key": "gold_baseline",
+          "filename": "gold_baseline.wav",
+          "url": "./api/audio/thunberg_summit/gold_baseline.wav"
+        },
+        {
+          "tier_key": "flawed_lvl1_subtle",
+          "filename": "flawed_lvl1_subtle.wav",
+          "url": "./api/audio/thunberg_summit/flawed_lvl1_subtle.wav"
+        },
+        {
+          "tier_key": "flawed_lvl2_rushed",
+          "filename": "flawed_lvl2_rushed.wav",
+          "url": "./api/audio/thunberg_summit/flawed_lvl2_rushed.wav"
+        },
+        {
+          "tier_key": "flawed_lvl3_botched",
+          "filename": "flawed_lvl3_botched.wav",
+          "url": "./api/audio/thunberg_summit/flawed_lvl3_botched.wav"
+        }
+      ],
+      "gold_audio_url": "./api/audio/thunberg_summit/gold_baseline.wav",
       "ground_truth_flaws": {
         "lvl1": [],
         "lvl2": [
@@ -378,17 +414,35 @@
         ]
       }
     },
-    "churchill_beaches": {
+    {
+      "id": "churchill_beaches",
       "title": "Winston Churchill We Shall Fight on the Beaches (1940)",
-      "rhetoric_type": "Resolute / Rallying Statesmanship",
       "speaker": "Winston Churchill",
+      "rhetoric_type": "Resolute / Rallying Statesmanship",
       "transcript": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets; we shall never surrender!",
-      "audio_files": {
-        "gold_baseline": "gold_baseline.wav",
-        "flawed_lvl1_subtle": "flawed_lvl1_subtle.wav",
-        "flawed_lvl2_monotone": "flawed_lvl2_monotone.wav",
-        "flawed_lvl3_botched": "flawed_lvl3_botched.wav"
-      },
+      "audio_files": [
+        {
+          "tier_key": "gold_baseline",
+          "filename": "gold_baseline.wav",
+          "url": "./api/audio/churchill_beaches/gold_baseline.wav"
+        },
+        {
+          "tier_key": "flawed_lvl1_subtle",
+          "filename": "flawed_lvl1_subtle.wav",
+          "url": "./api/audio/churchill_beaches/flawed_lvl1_subtle.wav"
+        },
+        {
+          "tier_key": "flawed_lvl2_monotone",
+          "filename": "flawed_lvl2_monotone.wav",
+          "url": "./api/audio/churchill_beaches/flawed_lvl2_monotone.wav"
+        },
+        {
+          "tier_key": "flawed_lvl3_botched",
+          "filename": "flawed_lvl3_botched.wav",
+          "url": "./api/audio/churchill_beaches/flawed_lvl3_botched.wav"
+        }
+      ],
+      "gold_audio_url": "./api/audio/churchill_beaches/gold_baseline.wav",
       "ground_truth_flaws": {
         "lvl1": [],
         "lvl2": [
@@ -541,5 +595,5 @@
         ]
       }
     }
-  }
+  ]
 }
