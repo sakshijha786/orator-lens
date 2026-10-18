@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { X, CheckCircle2, Cpu, Zap, Activity, ShieldCheck, BarChart2 } from 'lucide-react';
 import type { BenchmarkReport } from '../types';
+import { resolveApiUrl, DEFAULT_BENCHMARK_REPORT } from '../utils/api';
 
 interface BenchmarkModalProps {
   isOpen: boolean;
@@ -12,14 +13,34 @@ export const BenchmarkModal: React.FC<BenchmarkModalProps> = ({ isOpen, onClose 
 
   useEffect(() => {
     if (!isOpen) return;
-    fetch('/api/benchmark')
-      .then((res) => res.json())
-      .then((data) => {
-        setReport(data);
-      })
-      .catch((err) => {
-        console.error('Error fetching benchmark:', err);
-      });
+
+    const loadBenchmark = async () => {
+      try {
+        const res = await fetch(resolveApiUrl('api/benchmark'));
+        if (res.ok) {
+          const data = await res.json();
+          setReport(data);
+          return;
+        }
+      } catch {
+        // Fallback
+      }
+
+      try {
+        const resJson = await fetch(resolveApiUrl('api/benchmark.json'));
+        if (resJson.ok) {
+          const data = await resJson.json();
+          setReport(data);
+          return;
+        }
+      } catch (err) {
+        console.warn('Could not load static benchmark.json:', err);
+      }
+
+      setReport(DEFAULT_BENCHMARK_REPORT);
+    };
+
+    loadBenchmark();
   }, [isOpen]);
 
   if (!isOpen) return null;

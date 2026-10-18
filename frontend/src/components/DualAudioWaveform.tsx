@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import WaveSurfer from 'wavesurfer.js';
 import { Play, Pause, RotateCcw, ShieldCheck, AlertTriangle } from 'lucide-react';
 import type { FlawCard } from '../types';
+import { resolveApiUrl } from '../utils/api';
 
 interface DualAudioWaveformProps {
   goldAudioUrl: string;
@@ -38,6 +39,9 @@ export const DualAudioWaveform: React.FC<DualAudioWaveformProps> = ({
     setIsReady(false);
     setIsPlaying(false);
 
+    const safeGoldUrl = resolveApiUrl(goldAudioUrl);
+    const safeCandUrl = candidateAudioUrl ? resolveApiUrl(candidateAudioUrl) : null;
+
     // 1. Gold WaveSurfer
     const goldWs = WaveSurfer.create({
       container: goldContainerRef.current,
@@ -50,13 +54,14 @@ export const DualAudioWaveform: React.FC<DualAudioWaveformProps> = ({
       barRadius: 2,
       height: 70,
       normalize: true,
-      url: goldAudioUrl,
+      url: safeGoldUrl,
     });
     goldWsRef.current = goldWs;
+    goldWs.on('error', (err) => console.warn('WaveSurfer gold audio notice:', err));
 
     // 2. Candidate WaveSurfer (if audio exists)
     let candWs: WaveSurfer | null = null;
-    if (candContainerRef.current && candidateAudioUrl) {
+    if (candContainerRef.current && safeCandUrl) {
       candWs = WaveSurfer.create({
         container: candContainerRef.current,
         waveColor: '#be123c',
@@ -68,9 +73,10 @@ export const DualAudioWaveform: React.FC<DualAudioWaveformProps> = ({
         barRadius: 2,
         height: 70,
         normalize: true,
-        url: candidateAudioUrl,
+        url: safeCandUrl,
       });
       candWsRef.current = candWs;
+      candWs.on('error', (err) => console.warn('WaveSurfer candidate audio notice:', err));
     }
 
     goldWs.on('ready', () => {

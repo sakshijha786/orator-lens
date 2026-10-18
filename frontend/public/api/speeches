@@ -1,0 +1,599 @@
+{
+  "speeches": [
+    {
+      "id": "jobs_commencement",
+      "title": "Steve Jobs Stanford Commencement (2005)",
+      "speaker": "Steve Jobs",
+      "rhetoric_type": "Inspiring / Visionary Declamation",
+      "transcript": "Remembering that I'll be dead soon is the most important tool I've ever encountered to help me make the big choices in life. Stay hungry. Stay foolish.",
+      "audio_files": [
+        {
+          "tier_key": "gold_baseline",
+          "filename": "gold_baseline.wav",
+          "url": "./api/audio/jobs_commencement/gold_baseline.wav"
+        },
+        {
+          "tier_key": "flawed_lvl1_subtle",
+          "filename": "flawed_lvl1_subtle.wav",
+          "url": "./api/audio/jobs_commencement/flawed_lvl1_subtle.wav"
+        },
+        {
+          "tier_key": "flawed_lvl2_monotone",
+          "filename": "flawed_lvl2_monotone.wav",
+          "url": "./api/audio/jobs_commencement/flawed_lvl2_monotone.wav"
+        },
+        {
+          "tier_key": "flawed_lvl3_botched",
+          "filename": "flawed_lvl3_botched.wav",
+          "url": "./api/audio/jobs_commencement/flawed_lvl3_botched.wav"
+        }
+      ],
+      "gold_audio_url": "./api/audio/jobs_commencement/gold_baseline.wav",
+      "ground_truth_flaws": {
+        "lvl1": [],
+        "lvl2": [
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 1.08,
+            "end_sec": 1.63,
+            "text_segment": "dead",
+            "description": "Robotic flat pitch on high-emphasis word 'dead'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 1.63,
+            "end_sec": 2.08,
+            "text_segment": "soon",
+            "description": "Robotic flat pitch on high-emphasis word 'soon'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 2.08,
+            "end_sec": 2.58,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 2.78,
+            "end_sec": 3.23,
+            "text_segment": "important",
+            "description": "Robotic flat pitch on high-emphasis word 'important'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 3.23,
+            "end_sec": 3.61,
+            "text_segment": "tool",
+            "description": "Robotic flat pitch on high-emphasis word 'tool'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 3.61,
+            "end_sec": 4.11,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 4.75,
+            "end_sec": 5.25,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.15,
+            "end_sec": 6.55,
+            "text_segment": "choices",
+            "description": "Robotic flat pitch on high-emphasis word 'choices'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.7,
+            "end_sec": 7.3,
+            "text_segment": "life.",
+            "description": "Robotic flat pitch on high-emphasis word 'life.'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 7.3,
+            "end_sec": 7.8,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.42,
+            "end_sec": 7.92,
+            "text_segment": "Stay",
+            "description": "Robotic flat pitch on high-emphasis word 'Stay'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.92,
+            "end_sec": 8.57,
+            "text_segment": "hungry.",
+            "description": "Robotic flat pitch on high-emphasis word 'hungry.'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 8.57,
+            "end_sec": 9.07,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 8.69,
+            "end_sec": 9.19,
+            "text_segment": "Stay",
+            "description": "Robotic flat pitch on high-emphasis word 'Stay'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 9.19,
+            "end_sec": 9.94,
+            "text_segment": "foolish.",
+            "description": "Robotic flat pitch on high-emphasis word 'foolish.'"
+          }
+        ],
+        "lvl3": [
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 1.08,
+            "end_sec": 1.63,
+            "text_segment": "dead",
+            "description": "Robotic flat pitch on high-emphasis word 'dead'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 1.63,
+            "end_sec": 2.08,
+            "text_segment": "soon",
+            "description": "Robotic flat pitch on high-emphasis word 'soon'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 3.36,
+            "end_sec": 3.81,
+            "text_segment": "important",
+            "description": "Robotic flat pitch on high-emphasis word 'important'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 3.81,
+            "end_sec": 4.19,
+            "text_segment": "tool",
+            "description": "Robotic flat pitch on high-emphasis word 'tool'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.94,
+            "end_sec": 8.34,
+            "text_segment": "choices",
+            "description": "Robotic flat pitch on high-emphasis word 'choices'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 8.49,
+            "end_sec": 9.09,
+            "text_segment": "life.",
+            "description": "Robotic flat pitch on high-emphasis word 'life.'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 10.29,
+            "end_sec": 10.79,
+            "text_segment": "Stay",
+            "description": "Robotic flat pitch on high-emphasis word 'Stay'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 10.79,
+            "end_sec": 11.44,
+            "text_segment": "hungry.",
+            "description": "Robotic flat pitch on high-emphasis word 'hungry.'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 12.34,
+            "end_sec": 12.84,
+            "text_segment": "Stay",
+            "description": "Robotic flat pitch on high-emphasis word 'Stay'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 12.84,
+            "end_sec": 13.59,
+            "text_segment": "foolish.",
+            "description": "Robotic flat pitch on high-emphasis word 'foolish.'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thunberg_summit",
+      "title": "Greta Thunberg UN Climate Summit (2019)",
+      "speaker": "Greta Thunberg",
+      "rhetoric_type": "Persuasive / Urgent Forensics",
+      "transcript": "This is all wrong. I shouldn't be up here. You have stolen my dreams and my childhood with your empty words. How dare you!",
+      "audio_files": [
+        {
+          "tier_key": "gold_baseline",
+          "filename": "gold_baseline.wav",
+          "url": "./api/audio/thunberg_summit/gold_baseline.wav"
+        },
+        {
+          "tier_key": "flawed_lvl1_subtle",
+          "filename": "flawed_lvl1_subtle.wav",
+          "url": "./api/audio/thunberg_summit/flawed_lvl1_subtle.wav"
+        },
+        {
+          "tier_key": "flawed_lvl2_rushed",
+          "filename": "flawed_lvl2_rushed.wav",
+          "url": "./api/audio/thunberg_summit/flawed_lvl2_rushed.wav"
+        },
+        {
+          "tier_key": "flawed_lvl3_botched",
+          "filename": "flawed_lvl3_botched.wav",
+          "url": "./api/audio/thunberg_summit/flawed_lvl3_botched.wav"
+        }
+      ],
+      "gold_audio_url": "./api/audio/thunberg_summit/gold_baseline.wav",
+      "ground_truth_flaws": {
+        "lvl1": [],
+        "lvl2": [
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 0.73,
+            "end_sec": 1.28,
+            "text_segment": "wrong.",
+            "description": "Robotic flat pitch on high-emphasis word 'wrong.'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 1.28,
+            "end_sec": 1.78,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 2.35,
+            "end_sec": 2.85,
+            "text_segment": "here.",
+            "description": "Robotic flat pitch on high-emphasis word 'here.'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 2.85,
+            "end_sec": 3.35,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 3.44,
+            "end_sec": 3.84,
+            "text_segment": "stolen",
+            "description": "Robotic flat pitch on high-emphasis word 'stolen'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 4.06,
+            "end_sec": 4.61,
+            "text_segment": "dreams",
+            "description": "Robotic flat pitch on high-emphasis word 'dreams'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 4.99,
+            "end_sec": 5.49,
+            "text_segment": "childhood",
+            "description": "Robotic flat pitch on high-emphasis word 'childhood'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 5.49,
+            "end_sec": 5.99,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.01,
+            "end_sec": 6.36,
+            "text_segment": "empty",
+            "description": "Robotic flat pitch on high-emphasis word 'empty'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.36,
+            "end_sec": 6.91,
+            "text_segment": "words.",
+            "description": "Robotic flat pitch on high-emphasis word 'words.'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 6.91,
+            "end_sec": 7.41,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.03,
+            "end_sec": 7.43,
+            "text_segment": "How",
+            "description": "Robotic flat pitch on high-emphasis word 'How'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.43,
+            "end_sec": 7.88,
+            "text_segment": "dare",
+            "description": "Robotic flat pitch on high-emphasis word 'dare'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.88,
+            "end_sec": 8.53,
+            "text_segment": "you!",
+            "description": "Robotic flat pitch on high-emphasis word 'you!'"
+          }
+        ],
+        "lvl3": [
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 0.4,
+            "end_sec": 0.7,
+            "text_segment": "wrong.",
+            "description": "Robotic flat pitch on high-emphasis word 'wrong.'"
+          },
+          {
+            "category": "AWKWARD_HESITATION",
+            "start_sec": 0.7,
+            "end_sec": 4.3,
+            "description": "Egregious 3.6s cognitive stall mid-phrase"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 4.83,
+            "end_sec": 5.1,
+            "text_segment": "here.",
+            "description": "Robotic flat pitch on high-emphasis word 'here.'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.31,
+            "end_sec": 6.53,
+            "text_segment": "stolen",
+            "description": "Robotic flat pitch on high-emphasis word 'stolen'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.65,
+            "end_sec": 6.95,
+            "text_segment": "dreams",
+            "description": "Robotic flat pitch on high-emphasis word 'dreams'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.16,
+            "end_sec": 7.44,
+            "text_segment": "childhood",
+            "description": "Robotic flat pitch on high-emphasis word 'childhood'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 8.46,
+            "end_sec": 8.65,
+            "text_segment": "empty",
+            "description": "Robotic flat pitch on high-emphasis word 'empty'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 8.65,
+            "end_sec": 8.95,
+            "text_segment": "words.",
+            "description": "Robotic flat pitch on high-emphasis word 'words.'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 10.05,
+            "end_sec": 10.27,
+            "text_segment": "How",
+            "description": "Robotic flat pitch on high-emphasis word 'How'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 10.27,
+            "end_sec": 10.52,
+            "text_segment": "dare",
+            "description": "Robotic flat pitch on high-emphasis word 'dare'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 10.52,
+            "end_sec": 10.88,
+            "text_segment": "you!",
+            "description": "Robotic flat pitch on high-emphasis word 'you!'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "churchill_beaches",
+      "title": "Winston Churchill We Shall Fight on the Beaches (1940)",
+      "speaker": "Winston Churchill",
+      "rhetoric_type": "Resolute / Rallying Statesmanship",
+      "transcript": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets; we shall never surrender!",
+      "audio_files": [
+        {
+          "tier_key": "gold_baseline",
+          "filename": "gold_baseline.wav",
+          "url": "./api/audio/churchill_beaches/gold_baseline.wav"
+        },
+        {
+          "tier_key": "flawed_lvl1_subtle",
+          "filename": "flawed_lvl1_subtle.wav",
+          "url": "./api/audio/churchill_beaches/flawed_lvl1_subtle.wav"
+        },
+        {
+          "tier_key": "flawed_lvl2_monotone",
+          "filename": "flawed_lvl2_monotone.wav",
+          "url": "./api/audio/churchill_beaches/flawed_lvl2_monotone.wav"
+        },
+        {
+          "tier_key": "flawed_lvl3_botched",
+          "filename": "flawed_lvl3_botched.wav",
+          "url": "./api/audio/churchill_beaches/flawed_lvl3_botched.wav"
+        }
+      ],
+      "gold_audio_url": "./api/audio/churchill_beaches/gold_baseline.wav",
+      "ground_truth_flaws": {
+        "lvl1": [],
+        "lvl2": [
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 0.75,
+            "end_sec": 1.4,
+            "text_segment": "fight",
+            "description": "Robotic flat pitch on high-emphasis word 'fight'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 1.85,
+            "end_sec": 2.6,
+            "text_segment": "beaches,",
+            "description": "Robotic flat pitch on high-emphasis word 'beaches,'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 2.6,
+            "end_sec": 3.1,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 3.47,
+            "end_sec": 4.12,
+            "text_segment": "fight",
+            "description": "Robotic flat pitch on high-emphasis word 'fight'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 5.07,
+            "end_sec": 5.77,
+            "text_segment": "grounds,",
+            "description": "Robotic flat pitch on high-emphasis word 'grounds,'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 5.77,
+            "end_sec": 6.27,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.64,
+            "end_sec": 7.34,
+            "text_segment": "fight",
+            "description": "Robotic flat pitch on high-emphasis word 'fight'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 7.79,
+            "end_sec": 8.39,
+            "text_segment": "fields",
+            "description": "Robotic flat pitch on high-emphasis word 'fields'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 9.04,
+            "end_sec": 9.79,
+            "text_segment": "streets,",
+            "description": "Robotic flat pitch on high-emphasis word 'streets,'"
+          },
+          {
+            "category": "CLIPPED_DRAMATIC_PAUSE",
+            "start_sec": 9.79,
+            "end_sec": 10.29,
+            "description": "Dramatic punctuation pause severely clipped to <120ms"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 10.71,
+            "end_sec": 11.46,
+            "text_segment": "never",
+            "description": "Robotic flat pitch on high-emphasis word 'never'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 11.46,
+            "end_sec": 12.41,
+            "text_segment": "surrender!",
+            "description": "Robotic flat pitch on high-emphasis word 'surrender!'"
+          }
+        ],
+        "lvl3": [
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 0.75,
+            "end_sec": 1.4,
+            "text_segment": "fight",
+            "description": "Robotic flat pitch on high-emphasis word 'fight'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 1.85,
+            "end_sec": 2.6,
+            "text_segment": "beaches,",
+            "description": "Robotic flat pitch on high-emphasis word 'beaches,'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 4.5,
+            "end_sec": 5.15,
+            "text_segment": "fight",
+            "description": "Robotic flat pitch on high-emphasis word 'fight'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 6.1,
+            "end_sec": 6.8,
+            "text_segment": "grounds,",
+            "description": "Robotic flat pitch on high-emphasis word 'grounds,'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 8.8,
+            "end_sec": 9.5,
+            "text_segment": "fight",
+            "description": "Robotic flat pitch on high-emphasis word 'fight'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 9.95,
+            "end_sec": 10.55,
+            "text_segment": "fields",
+            "description": "Robotic flat pitch on high-emphasis word 'fields'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 11.2,
+            "end_sec": 11.95,
+            "text_segment": "streets,",
+            "description": "Robotic flat pitch on high-emphasis word 'streets,'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 14.05,
+            "end_sec": 14.8,
+            "text_segment": "never",
+            "description": "Robotic flat pitch on high-emphasis word 'never'"
+          },
+          {
+            "category": "MONOTONE_CLIMAX",
+            "start_sec": 14.8,
+            "end_sec": 15.75,
+            "text_segment": "surrender!",
+            "description": "Robotic flat pitch on high-emphasis word 'surrender!'"
+          }
+        ]
+      }
+    }
+  ]
+}

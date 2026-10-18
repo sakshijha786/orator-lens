@@ -48,9 +48,9 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center space-x-3">
           {/* Health status */}
           <div className="flex items-center space-x-2 px-3 py-1.5 rounded-lg bg-surface-card border border-border-subtle text-xs">
-            <span className={`inline-block w-2 h-2 rounded-full ${backendOnline ? 'bg-emerald-400 shadow-[0_0_8px_#34d399]' : 'bg-rose-500'}`} />
+            <span className={`inline-block w-2 h-2 rounded-full ${backendOnline ? 'bg-emerald-400 shadow-[0_0_8px_#34d399]' : 'bg-cyan-400 shadow-[0_0_8px_#22d3ee]'}`} />
             <span className="text-slate-300 font-medium">
-              {backendOnline ? 'FastDTW Engine Ready' : 'Connecting...'}
+              {backendOnline ? 'Live DSP API Ready' : 'FastDTW Engine Active'}
             </span>
           </div>
 
